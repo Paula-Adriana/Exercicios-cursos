@@ -10,7 +10,7 @@ public class operadorLogico {
 		
 		//Atribuição
 		ult3EmprestQuitadosPrazo = true; 
-		possuiRendaComprovada = true;
+		possuiRendaComprovada = false;
 		clienteDezEstrelas = true;
 		restricaoCredito = false;
 		//o interessante é nao ter restriçao, se tiver, nao emprestarei o dinheiro. Por isso negar a restricao de credito
