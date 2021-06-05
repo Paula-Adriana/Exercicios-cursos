@@ -5,7 +5,7 @@ import java.math.*;
 public class praticaIntegradora {
 
 	public static void main(String[] args) {
-		// Avaliação de notas e frequencia
+		// Avaliação de notas e frequencia (estatico - notas inseridas manualmente)
 		
 		double nota1, nota2, nota3, nota4, freq, total;
 		String nomeDoAluno;

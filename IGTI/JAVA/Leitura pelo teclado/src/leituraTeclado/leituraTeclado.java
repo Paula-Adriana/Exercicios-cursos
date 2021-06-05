@@ -16,9 +16,9 @@ public class leituraTeclado {
 		Scanner entradaCaractere = new Scanner(System.in);
 		
 		System.out.print("Digite o nome do aluno: ");
-		String nomeDoAluno = entradaCaractere.nextLine(); //lÃª o nome do aluno
+		String nomeDoAluno = entradaCaractere.nextLine(); //lê o nome do aluno
 		
-		System.out.print("Digite um caractere para a situaÃ§Ã£o do aluno (O --> OK; P --> PendÃªncia: ");
+		System.out.print("Digite um caractere para a situação do aluno (O --> OK; P --> Pendência: ");
 		statusdoAluno = entradaCaractere.nextLine().charAt(0); //zero para pegar somente o primeiro caractere
 		
 		//Entrada de notas
@@ -32,18 +32,17 @@ public class leituraTeclado {
 		nota4 = entradaNotas.nextDouble();
 		
 		//Entrada de frequencia
-		System.out.print("Digite a frequÃªncia do aluno: ");
+		System.out.print("Digite a frequência do aluno: ");
 		freq = entradaNotas.nextDouble();
 		
 		//Calculo da nota total
 		total = nota1 + nota2 + nota3 + nota4;
 		boolean aprovado = total >= 70 && freq >= 0.75;
 		
-		System.out.printf("O(a) aluno(a) %s obteve nota final %.2f e frequÃªncia de %.2f%%. A situaÃ§Ã£o do(a) aluno(a) Ã©: %c.\n"
+		System.out.printf("O(a) aluno(a) %s obteve nota final %.2f e frequência de %.2f%%. A situação do(a) aluno(a) é: %c.\n"
 				+ "Aluno aprovado? %b.", nomeDoAluno, total, freq*100, statusdoAluno, aprovado);
 
 	}
 
 }
 //objeto scanner: le a entrada do teclado direto na variavel
-//me luv xuxu
