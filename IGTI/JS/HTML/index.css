@@ -1,0 +1,20 @@
+.texto-header {
+    color: blueviolet;
+    background-color: cadetblue;
+}
+
+#texto2 {
+    color: red;
+}
+
+.borda {
+    border: solid 11px #00b9b4;
+    border-radius: 27px; 
+}
+/*Para facilitar a visualização do style é mais facil fazer pelo 
+inspecionar (f12) do chrome, seleciona no codigo e altera em "style"*/
+
+.paragrafo {
+    margin: 30px 15px 20px 10px; /* segue sentido horario topo,direita, abaixo esquerda*/
+    padding: 10px;
+} 

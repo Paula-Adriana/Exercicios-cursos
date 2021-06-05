@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <h1 id="h1"
+    onclick="document.getElementById('h1').innerHTML = 'Obrigada'"
+    onmouseover="console.log('mouseover')"
+    onmouseout="console.log('mouseout')"
+    >
+    Clique aqui!
+    </h1>
+    <input type="text"
+    onchange="inputOnChange(this.value)"
+    onblur="inputOnBlur()" 
+    onkeydown="console.log('onkeydown') " 
+    onkeypress="console.log('onkeypress')" 
+    onkeyup="console.log('onkeyup')">
+    
+
+
+
+
+    <script src="index3.js"></script>
+</body>
+</html>

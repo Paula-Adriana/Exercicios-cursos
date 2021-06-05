@@ -1,0 +1,2 @@
+conteúdo arquivo
++ uma linha acrescentada

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area {
+            font: normal 20pt arial;
+            background: rgb(26, 129, 26);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <DIV id = "area" onclick="clicar()" onmouseover= "Entrar()" onmouseout="Sair()"> <!--evento clicar quando ocorrer dentro da div--> 
+        Interaja...
+
+    </DIV>
+    <script>
+        var area = window.document.getElementById('area') //Variavel area está ligada com a div area e seus eventos. A var fora da function pode ser usada por outras function que utilizarem essa var
+        function clicar(){
+            
+            area.innerText = 'Clicou!' //ao ocorrer o evento area recebera a mensagem: clicou
+            area.style.background = "red"
+        }
+
+        function Entrar(){
+            
+            area.innerText = 'Entrou!' //ao ocorrer o evento area recebera a mensagem: Entrou
+
+        }
+
+        function Sair(){
+            
+            area.innerText = 'Saiu!' //ao ocorrer o evento area recebera a mensagem: Saiu
+            area.style.background = "green"
+
+        }
+    </script>
+</body>
+</html>

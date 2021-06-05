@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="index.css">
+     <title>titulozinho</title>
+</head>
+<body>
+    <img src="ceu.jpeg"/>
+    <h1 class="texto-header">Titulo 1</h1>   
+    <h2 id="texto2">Titulo 2</h2>
+    <p class="borda paragrafo">Um paragrafo</p><br> <!--duas classes-->
+    <p id="Paragrafo2">Outro paragrafo</p>
+
+    <a href="https://www.igti.com.br/"></a> <!--direciona o link--> 
+    <br>
+    <input type="text"> <br> <!--cria cx texto--> <br>
+    <input type="number"> <!--cria cx numeros--><br>
+    <input type="checkbox" id="carro1"> <!--id nao aparece para o usuario--> 
+    <label for="carro1">Uno</label> <br> <!--label associa com o id carro 1 - uno é o que aparece para o usuario-->
+    <input type="checkbox" id="carro2">  
+    <label for="carro2">Fusca</label> <br>
+
+    <input type="radio" id="masculino" value="masculino" name="sexo"> <!--radio escolhe uma ou outra opcao do mesmo grupo atraves do name-->
+    <label for="masculino">Masculino</label> <br>
+    
+    <input type="radio" id="Feminino" value="Feminino"name="sexo">
+    <label for="Feminino">Feminino</label> <br>
+    
+    <input type="radio" id="outro" value="outro"name="sexo">
+    <label for="outro">Outro</label> <br>
+    
+    <br>
+    <select><!--cria opcoes, para cada opcao é um option-->
+        <option value="Uno">Uno</option> <!--O value é o que será capturado e informado ao codigo e o Uno em branco o que será mostrado na tela-->
+        <option value="Celta" selected>Celta</option> <!--Selected deixa selecionado dentro da cx-->
+        <option value="Fusca">Fusca</option>
+    </select>
+    <br>
+    <select multiple><!--seleciona mais de uma opcao dentro da cx-->
+        <option value="Uno">Uno</option> <!--O value é o que será capturado e informado ao codigo e o Uno em branco o que será mostrado na tela-->
+        <option value="Celta">Celta</option> <!--Selected deixa selecionado dentro da cx-->
+        <option value="Fusca">Fusca</option>
+    </select>
+    <br>
+    <textarea rows="5" cols="20">Texto inicial</textarea> <br>
+
+
+   <button type="button" onclick="teste();">Clique aqui!</button>
+   <button type="button" onclick="teste2();">Clique aqui2!</button>
+   
+   <script src ="index.js"></script>
+
+</body>
+</html> 
