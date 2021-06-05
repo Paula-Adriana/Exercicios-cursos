@@ -6,15 +6,17 @@ public class operadorLogico {
 		// Algoritmo: Avaliação de concessão de empréstimos
 		
 		//Declaração
-		boolean ult3EmprestQuitadosPrazo, possuiRendaComprovada, clienteDezEstrelas;
+		boolean ult3EmprestQuitadosPrazo, possuiRendaComprovada, clienteDezEstrelas, restricaoCredito;
 		
 		//Atribuição
-		ult3EmprestQuitadosPrazo = false; 
-		possuiRendaComprovada = false;
+		ult3EmprestQuitadosPrazo = true; 
+		possuiRendaComprovada = true;
 		clienteDezEstrelas = true;
+		restricaoCredito = false;
+		//o interessante é nao ter restriçao, se tiver, nao emprestarei o dinheiro. Por isso negar a restricao de credito
 		
 		
-		boolean concederEmprestimo = ult3EmprestQuitadosPrazo && possuiRendaComprovada || clienteDezEstrelas;
+		boolean concederEmprestimo = (ult3EmprestQuitadosPrazo && possuiRendaComprovada || clienteDezEstrelas) && !restricaoCredito;
 		System.out.printf("Empréstimo concedido? \n %b", concederEmprestimo);
 		
 	}
