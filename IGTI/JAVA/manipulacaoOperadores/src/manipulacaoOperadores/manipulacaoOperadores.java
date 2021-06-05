@@ -21,7 +21,7 @@ public class manipulacaoOperadores {
 		double x_2linha = 0;
 		x_2linha = (-b - Math.sqrt(delta)) / (2*a);
 		System.out.printf("O valor de x'' é de %.0f", x_2linha);
-		//sem casa decimal %.0f
+	
 	}
 
 }
