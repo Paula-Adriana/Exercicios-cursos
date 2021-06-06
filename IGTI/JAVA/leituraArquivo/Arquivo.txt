@@ -1,0 +1,4 @@
+1;Paulo Campos;Rua a,32;BH;Solteiro
+2;Gilberto Moreiro;Estrada c,74;SC;Casado
+3;Maria Sousa;Rua D,96;BA;Viúva
+4;Angelica Lima;Alameda z,93;PR;Divorciada
