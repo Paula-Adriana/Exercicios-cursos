@@ -20,7 +20,7 @@ public class gravacaoArquivo {
 		} catch (IOException e){
 			System.out.println("Ocorreu um erro ao gravar arquivo: " + e.getMessage());
 		}
-		System.out.println("Fim da execução");
+		System.out.println("Fim da execução.");
 
 	}
 
