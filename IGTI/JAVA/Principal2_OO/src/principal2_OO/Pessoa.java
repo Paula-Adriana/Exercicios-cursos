@@ -10,7 +10,7 @@ public class Pessoa {
 	//criar o objeto endereço: duas formas: dentro da classe com "construtor" e possui o mesmo nome da classe
 	//é um método mas nao retorna nada
 	Pessoa() {
-		endereco = new dadosEndereco();
+		endereco = new dadosEndereco();//instanciei o objeto endereço
 	}
 	
 	String imprimirDadosPessoa(char imprimirEndereco) {

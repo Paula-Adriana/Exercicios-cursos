@@ -6,8 +6,8 @@ public class principal2_OO {
 		// Depois de criar duas classes (dadosEndereço e Pessoa)
 		//instanciar o objeto pessoa.
 		
-		Pessoa p1 = new Pessoa();
-		Scanner entNumerico = new Scanner(System.in);
+		Pessoa p1 = new Pessoa();//classe pessoa sem argumento
+		Scanner entNumerico = new Scanner(System.in);//classe scanner feita por outra pessoa com argumento
 		Scanner entCaracter = new Scanner(System.in);
 		char imprimirEndereco;
 		
