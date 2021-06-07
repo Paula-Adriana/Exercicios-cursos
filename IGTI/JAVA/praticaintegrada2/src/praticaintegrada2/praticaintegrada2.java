@@ -35,6 +35,7 @@ public class praticaintegrada2 {
 					somatorio = somatorio + numeros[j];
 				}
 				System.out.printf("O somatório dos números é: %d\n", somatorio);
+				somatorio = 0;
 				break;
 			
 			case 'V':
@@ -51,6 +52,7 @@ public class praticaintegrada2 {
 				}
 				media = somatorio / i;
 				System.out.printf("A média é: %.2f.\n", media);
+				somatorio = 0;
 				break;
 			case 'Q': 
 				for (int j = 0; j < i; j++) {
