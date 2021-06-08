@@ -3,7 +3,7 @@ package trabalhoPratico2;
 import java.util.*;
 
 public class trabalhoPratico2 {
-
+//FIGURA 07
 	public static void main(String[] args) {
 	//Calcula o valor3 com base no valor digitado e na condicao if/else
 		int valor1 = 0, valor2 = 75, valor3 = 0;
