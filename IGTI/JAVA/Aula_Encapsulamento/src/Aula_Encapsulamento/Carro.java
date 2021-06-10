@@ -36,4 +36,5 @@ public class Carro {
 		this.cavalos = cavalos;
 	}
 	
-}
+}//Se fizer somente o metodo get o arquivo fica como "somente leitura". Pois a pessoa nao conseguirá atribuir
+//nada com o set. pois o metodo nao foi escrito. 
