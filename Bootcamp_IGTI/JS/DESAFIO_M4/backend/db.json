@@ -115,6 +115,12 @@
       "role_id": 5
     },
     {
+      "id": 20,
+      "name": "Luisa Dove",
+      "salary": 4200,
+      "role_id": 3
+    },
+    {
       "id": 21,
       "name": "Markos Casburn",
       "salary": 7800,
